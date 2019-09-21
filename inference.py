@@ -8,8 +8,10 @@ tf.enable_eager_execution()
 import model
 
 CKPT_DIR = 'logs/person_coco_aspp/ckpt'
-INPUT_IMG_FPATH = 'img/me_512.png'
-OUTPUT_IMG_FPATH = 'img/me_512_seg.png'
+#INPUT_IMG_FPATH = 'img/me_512.png'
+#OUTPUT_IMG_FPATH = 'img/me_512_seg.png's
+INPUT_IMG_FPATH = 'img/0028C1T0001F008.jpg'
+OUTPUT_IMG_FPATH = 'img/0028C1T0001F008_seg.png'
 
 net = model.Model()
 
